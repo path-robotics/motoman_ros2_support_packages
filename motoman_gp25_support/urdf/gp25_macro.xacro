@@ -127,7 +127,7 @@
         <parent link="${prefix}link_3_u"/>
         <child link="${prefix}link_4_r"/>
         <origin xyz="${0.795 + kinematic_offsets['4_r']['x']} ${0 + kinematic_offsets['4_r']['y']} ${0.200 + kinematic_offsets['4_r']['z']}"
-                rpy="${kinematic_offsets['4_r']['roll']} ${kinematic_offsets['4_r']['pitch']} ${kinematic_offsets['4_r']['yaw']}" />
+                rpy="${0 + kinematic_offsets['4_r']['roll']} ${0 + kinematic_offsets['4_r']['pitch']} ${0 + kinematic_offsets['4_r']['yaw']}" />
         <axis xyz="-1 0 0"/>
         <limit lower="${radians(-200)}" upper="${radians(200)}" effort="88.2" velocity="${radians(420)}"/>
     </joint>
